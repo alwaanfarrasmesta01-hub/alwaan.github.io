@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAK v3.0-Login Page</title>
+    <style>
+        body {
+            position: relative;
+            height: 100vh;
+            background-image: url(Kampus-Unsri-Indralaya.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: inherit;
+            filter: blur(8px);
+            z-index: -1;
+        }
+
+        .login {
+            text-align: center;
+            margin: 0 auto;
+            background-color: white;
+            width: 450px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        .login h2 {
+            color: rgb(15, 70, 189);
+            font-family: sans-serif;
+        }
+
+        .login input {
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(187, 244, 225);
+            height: 18px;
+            width: 300px;
+        }
+
+        .login:hover input {
+            cursor: pointer;
+        }
+
+        .login button {
+            border-radius: 5px;
+            border: none;
+            background-color: indianred;
+            width: 150px;
+            height: 30px;
+            -webkit-text-fill-color: white;
+        }
+
+        .login:hover button {
+            cursor: pointer;
+            background-color: rgb(164, 35, 35);
+            transition: all 2s;
+        }
+
+        .head {
+            text-align: center;
+        }
+
+        .head img {
+            width: 35%;
+            height: 35%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="head">
+        <img src="c:\Users\WIN10\Downloads\380-3807393_unsri-vector-logo-logo-universitas-sriwijaya__1_-removebg-preview.png"
+            alt="logo">
+    </div>
+    <div class="login">
+        <br>
+        <h2>SISTEM INFORMASI AKADEMIK</h2>
+        <h2>UNIVERSITAS SRIWIJAYA</h2><br><br>
+        <form action="" method="get"><label for="text">&#128100<input type="text"></label></form><br>
+        <form action="" method="get"><label for="password">&#128274<input type="password"></label></form><br>
+        <button>LOGIN</button>
+    </div>
+</body>
+
+</html>
